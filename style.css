@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: greenyellow;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    
+}
+
+.top-items {
+    margin: 5px;
+}
+.btn {
+    display: flex;
+    
+}
+.btn-inner {
+    margin: 5px;
+    padding: 7px;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
